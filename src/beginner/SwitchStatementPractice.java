@@ -1,4 +1,4 @@
-/*
+package beginner;/*
 * switch문 연습
 *
 * 정수 134354를 7로 나눈 나머지를 영어로 출력

@@ -1,4 +1,4 @@
-/*
+package beginner;/*
  * 구구단
  * for문으로 구구단 출력하기
  * */

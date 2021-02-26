@@ -1,4 +1,4 @@
-/*
+package beginner;/*
 * if, else if, else 연습
 * */
 

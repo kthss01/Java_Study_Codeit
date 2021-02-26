@@ -1,4 +1,4 @@
-/*
+package beginner;/*
     연산자와 형 변환
 
     국어(koreanScore) 86점,

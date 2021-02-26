@@ -1,4 +1,4 @@
-/*
+package beginner;/*
     자기소개서 만들기
 
     변수 정의
