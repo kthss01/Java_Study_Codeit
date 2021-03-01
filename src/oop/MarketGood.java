@@ -1,8 +1,8 @@
 package oop;
 
 public class MarketGood {
-    private String name; // 상품의 이름
-    private int retailPrice; // 상품의 출시 가격
+    public final String name; // 상품의 이름
+    public final int retailPrice; // 상품의 출시 가격
     private int discountRate; // 상품의 할인율. 단위: %
 
     public MarketGood(String name, int retailPrice, int discountRate) {
@@ -19,13 +19,13 @@ public class MarketGood {
         this(name, retailPrice, 0);
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getRetailPrice() {
-        return retailPrice;
-    }
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public int getRetailPrice() {
+//        return retailPrice;
+//    }
 
     public int getDiscountRate() {
         return discountRate;

@@ -1,0 +1,20 @@
+package oop.project3;
+
+import java.util.ArrayList;
+
+public class Artist {
+    public final String name;
+    public final ArrayList<Album> albums = new ArrayList<>();
+
+    public Artist(String name) {
+        this.name = name;
+    }
+
+    public void addAlbum(Album album) {
+        albums.add(album);
+    }
+
+    public ArrayList<Album> getAlbums() {
+        return albums;
+    }
+}
