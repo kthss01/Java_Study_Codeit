@@ -3,6 +3,8 @@ package intermediate;
 public class BankAccount {
     protected int balance;
 
+    public BankAccount() {}
+
     public BankAccount(int balance) {
         this.balance = balance;
     }

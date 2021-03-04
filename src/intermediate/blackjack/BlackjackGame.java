@@ -1,6 +1,6 @@
-package intermediate.project2;
+package intermediate.blackjack;
 
-public class Blackjack {
+public class BlackjackGame {
     public static void main(String[] args) {
         BlackjackCard card1 = new BlackjackCard(1, 1);
         BlackjackCard card2 = new BlackjackCard(2, 6);

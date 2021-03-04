@@ -1,6 +1,6 @@
-package intermediate.project2;
+package intermediate.blackjack;
 
-import intermediate.project.Card;
+import intermediate.cardshuffler.Card;
 
 public class BlackjackCard extends Card {
 

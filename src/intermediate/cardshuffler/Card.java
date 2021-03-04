@@ -1,4 +1,4 @@
-package intermediate.project;
+package intermediate.cardshuffler;
 
 public class Card {
     // 카드의 모양

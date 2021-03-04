@@ -3,6 +3,10 @@ package intermediate;
 public class SavingAccount extends BankAccount {
     private double interest;
 
+    public SavingAccount() {
+        super();
+    }
+
     public SavingAccount(int balance) {
         super(balance);
     }

@@ -1,4 +1,4 @@
-package intermediate.project;
+package intermediate.cardshuffler;
 
 import java.util.ArrayList;
 import java.util.Collections;

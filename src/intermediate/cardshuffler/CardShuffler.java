@@ -1,4 +1,4 @@
-package intermediate.project;
+package intermediate.cardshuffler;
 
 public class CardShuffler {
     public static void main(String[] args) {

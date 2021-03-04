@@ -3,6 +3,10 @@ package intermediate;
 public class MinimumBalanceAcount extends BankAccount {
     private int minimum;
 
+    public MinimumBalanceAcount() {
+        super();
+    }
+
     public MinimumBalanceAcount(int balance) {
         super(balance);
     }
