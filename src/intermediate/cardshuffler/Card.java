@@ -1,6 +1,6 @@
 package intermediate.cardshuffler;
 
-public class Card {
+public class Card implements Comparable<Card> {
     // 카드의 모양
     // 1,2,3,4
     // 클로버(Clubs) 하트(Hearts) 다이아몬드(Diamonds) 스페이드(Spades)
@@ -24,10 +24,10 @@ public class Card {
                 suit = "Clubs";
                 break;
             case 2:
-                suit = "Hearts";
+                suit = "Diamonds";
                 break;
             case 3:
-                suit = "Diamonds";
+                suit = "Hearts";
                 break;
             case 4:
                 suit = "Spades";
@@ -64,5 +64,13 @@ public class Card {
     @Override
     public String toString() {
         return getRank() + " of " + getSuit();
+    }
+
+    @Override
+    public int compareTo(Card o) {
+        if (suitNumber == o.suitNumber)
+            return rankNumber - o.rankNumber;
+        else
+            return suitNumber - o.suitNumber;
     }
 }

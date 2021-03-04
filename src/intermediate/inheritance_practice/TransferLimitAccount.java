@@ -1,4 +1,4 @@
-package intermediate;
+package intermediate.inheritance_practice;
 
 public class TransferLimitAccount extends BankAccount {
     private int transferLimit;

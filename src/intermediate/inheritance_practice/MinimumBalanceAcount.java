@@ -1,4 +1,4 @@
-package intermediate;
+package intermediate.inheritance_practice;
 
 public class MinimumBalanceAcount extends BankAccount {
     private int minimum;

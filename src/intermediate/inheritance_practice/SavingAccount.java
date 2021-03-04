@@ -1,4 +1,4 @@
-package intermediate;
+package intermediate.inheritance_practice;
 
 public class SavingAccount extends BankAccount {
     private double interest;

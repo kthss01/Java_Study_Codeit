@@ -1,4 +1,4 @@
-package intermediate;
+package intermediate.inheritance_practice;
 
 import java.util.ArrayList;
 
